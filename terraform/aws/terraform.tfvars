@@ -1,0 +1,5 @@
+region="us-east-1"
+name_preffix="test"
+profile= "virginia"
+container_name="symmetrical-spork"
+container_image="symmetrical:spork"

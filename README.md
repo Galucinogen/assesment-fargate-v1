@@ -44,7 +44,15 @@ TODO: Document how to run
 
 ## Test the whole setup
 
-TODO: Document how to test the setup
+terraform-compliance is available as as pip package in PyPi.
+
+It requires Python 3.x to run properly. Installation is pretty standard like any Python package.
+
+[~] $ pip install terraform-compliance
+
+Run:
+
+[~] $ make tests
 
 ## Note
 
