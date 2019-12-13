@@ -45,6 +45,7 @@ module "ecs-task-definition" {
     region          = var.region
     container_name  = var.container_name
     container_image = var.container_image
+    healthcheck     = local.healthcheck
     container_port  = 900
 }
 
